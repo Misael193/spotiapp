@@ -17,10 +17,7 @@ export class SearchComponent {
       return;
     }
 
-    this._spotify.getArtistas( this.termino ).subscribe( resp => {
-      console.log('Informacion Lista!');
-      console.log( resp );
-    })
+    this._spotify.getArtistas( this.termino ).subscribe()
   }
 
   ngOnInit() {

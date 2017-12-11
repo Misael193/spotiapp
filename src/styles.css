@@ -8,6 +8,14 @@ hr{
   border-color: white;
 }
 
+.img-circular{
+  border-radius: 100%;
+}
+
+.img-50 {
+  width: 50px;
+}
+
 .top30{
   margin-top: 30px;
 }
